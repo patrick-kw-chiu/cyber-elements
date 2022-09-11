@@ -1,26 +1,25 @@
 {
-  "name": "cyber-elements",
-  "version": "0.0.1",
-  "description": "Collection of cyber-feel web components",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/patrick-kw-chiu/cyber-elemenets.git"
-  },
-  "keywords": [
-    "webcomponent",
-    "web",
-    "component",
-    "cyber",
-    "ui"
-  ],
-  "author": "Patrick Chiu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/patrick-kw-chiu/cyber-elemenets/issues"
-  },
-  "homepage": "https://github.com/patrick-kw-chiu/cyber-elemenets#readme"
+    "name": "cyber-elements",
+    "version": "0.0.1",
+    "description": "Collection of cyber-feel web components",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/patrick-kw-chiu/cyber-elemenets.git"
+    },
+    "keywords": [
+        "webcomponent",
+        "web component",
+        "cyber",
+        "ui"
+    ],
+    "author": "Patrick Chiu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/patrick-kw-chiu/cyber-elemenets/issues"
+    },
+    "homepage": "https://github.com/patrick-kw-chiu/cyber-elemenets#readme"
 }
