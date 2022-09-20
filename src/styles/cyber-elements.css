@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('Space_Mono/SpaceMono-Regular.ttf'),
+        url('Space_Mono/SpaceMono-Bold.ttf'),
+        url('Space_Mono/SpaceMono-BoldItalic.ttf'),
+        url('Space_Mono/SpaceMono-Italic.ttf');
+}
+
+:root {
+    --color-text: #fff;
+    --color-bg: #000;
+
+    /* --cyber-colors-teal-500: red; */
+}
+
+html {
+    font-family: 'Space Mono', system-ui, sans-serif;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+body {
+    margin: 0;
+}

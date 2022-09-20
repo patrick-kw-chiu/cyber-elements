@@ -1,14 +1,21 @@
 {
     "name": "cyber-elements",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Collection of cyber-feel web components",
-    "main": "index.js",
+    "type": "module",
+    "main": "lib/components/cyber-elements.js",
+    "module": "lib/components/cyber-elements.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro",
+        "build-component": "rm -rf lib && tsc && cp -R src/styles lib/styles"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/patrick-kw-chiu/cyber-elemenets.git"
+        "url": "git+https://github.com/patrick-kw-chiu/cyber-elements.git"
     },
     "keywords": [
         "webcomponent",
@@ -19,7 +26,18 @@
     "author": "Patrick Chiu",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/patrick-kw-chiu/cyber-elemenets/issues"
+        "url": "https://github.com/patrick-kw-chiu/cyber-elements/issues"
     },
-    "homepage": "https://github.com/patrick-kw-chiu/cyber-elemenets#readme"
+    "homepage": "https://github.com/patrick-kw-chiu/cyber-elements#readme",
+    "dependencies": {
+        "@astrojs/lit": "^1.0.1",
+        "@webcomponents/template-shadowroot": "^0.1.0",
+        "astro": "^1.2.1",
+        "cyber-elements": "^0.0.2",
+        "lit": "^2.3.1"
+    },
+    "devDependencies": {
+        "tslint": "^6.1.3",
+        "typescript": "^4.8.3"
+    }
 }

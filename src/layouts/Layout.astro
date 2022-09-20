@@ -1,0 +1,46 @@
+---
+import '../styles/cyber-elements.css';
+
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+<style>
+	:root {
+		--color-text: #fff;
+		--color-bg: #000;
+
+		/* --cyber-colors-teal-500: red; */
+	}
+
+	html {
+		font-family: system-ui, sans-serif;
+		color: var(--color-text);
+		background-color: var(--color-bg);
+	}
+
+	body {
+		margin: 0;
+	}
+
+
+</style>
+
+<!-- <style is:global>
+</style> -->
